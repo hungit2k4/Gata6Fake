@@ -9,7 +9,7 @@ public class codebansung : MonoBehaviour
     public Transform tâm;
     public Transform súng; // Transform where the bullet spawns
     public Transform gocnhin; // Transform where the bullet spawns
-    public TextMeshProUGUI loadsodan;
+    public TextMeshPro loadsodan;
 
 
     public GameObject ak47;
@@ -27,12 +27,12 @@ public class codebansung : MonoBehaviour
 
     private float nextFireTime = 0f; // Time when the next bullet can be fired
 
-    private Animator animator;
+    //private Animator animator;
 
     private void Start()
     {
         sodan = 30;
-        animator = GetComponent<Animator>();
+       // animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -45,29 +45,29 @@ public class codebansung : MonoBehaviour
         // nap dan
         if (Input.GetKey(KeyCode.R) && isfire == false)
         {
-            animator.SetBool("bansung", false);
+         //   animator.SetBool("bansung", false);
 
-            animator.SetBool("bo", true);
+          //  animator.SetBool("bo", true);
             Invoke("huynapdan", 2f);
 
         }
         // Check if left mouse button is held down
         if (Input.GetMouseButton(0) && sodan > 0 && Time.time >= nextFireTime)
         {
-            animator.SetBool("banmark", true);
+          //  animator.SetBool("banmark", true);
 
             // Fire a bullet
 
             FireBullet();
             // Update next fire time based on fire rate
             nextFireTime = Time.time + fireRate;
-            AimGunAtTarget();
+          //  AimGunAtTarget();
 
         }
 
         else if (isfire == false)
         {
-            animator.SetBool("banmark", false);
+           // animator.SetBool("banmark", false);
 
         }
 
@@ -75,7 +75,7 @@ public class codebansung : MonoBehaviour
         {
 
 
-            animator.SetBool("bansung", false);
+           // animator.SetBool("bansung", false);
         }
 
     }
@@ -114,7 +114,7 @@ public class codebansung : MonoBehaviour
     }
     void huynapdan()
     {
-        animator.SetBool("bo", false);
+      //  animator.SetBool("bo", false);
         sodan = 30;
         loadsodan.text = "" + sodan;
 
@@ -132,14 +132,14 @@ public class codebansung : MonoBehaviour
         loadsodan.text = "" + sodan;
     }
 
-    private void AimGunAtTarget()
-    {
+   // private void AimGunAtTarget()
+   // {
         //  Calculate the direction from the gun to the aim point
-        Vector3 direction = tâm.position - gocnhin.position;
+   //     Vector3 direction = tâm.position - gocnhin.position;
 
         // Rotate the gun to face the direction (ignoring up/down rotation)
-        gocnhin.rotation = Quaternion.LookRotation(direction, Vector3.forward);
-    }
+   //     gocnhin.rotation = Quaternion.LookRotation(direction, Vector3.forward);
+   // }
 
 
 }
