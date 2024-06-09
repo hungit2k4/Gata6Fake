@@ -6707,7 +6707,7 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 774363161}
-    PlayerPrefab: {fileID: 1801936542268416043, guid: fa69fb3e1a658f142a3ba0fc992c8c2d, type: 3}
+    PlayerPrefab: {fileID: 4404232743521035228, guid: 22ef9cba643ad3a4c99afcd987a096bd, type: 3}
     Prefabs:
       NetworkPrefabsLists:
       - {fileID: 11400000, guid: ad81416941d1ecf4da789e63b9cf8df4, type: 2}
@@ -15314,6 +15314,7 @@ GameObject:
   - component: {fileID: 1832557097}
   - component: {fileID: 1832557096}
   - component: {fileID: 1832557095}
+  - component: {fileID: 1832557098}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -15395,6 +15396,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1832557098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832557094}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696ae2cb5f89a2e489b216fd91a678d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 500
+  playerBody: {fileID: 0}
 --- !u!1001 &1833581642
 PrefabInstance:
   m_ObjectHideFlags: 0

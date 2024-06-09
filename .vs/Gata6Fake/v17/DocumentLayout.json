@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\cammov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cammov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|D:\\FPT Polytechnic\\game3d\\Gata6Fake\\assets\\scripts\\uistartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uistartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|D:\\FPT Polytechnic\\game3d\\Gata6Fake\\assets\\scripts\\uinetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uinetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\uistartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uistartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|D:\\FPT Polytechnic\\game3d\\Gata6Fake\\assets\\scripts\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Cammov.cs",
+              "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\Cammov.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cammov.cs",
+              "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\Cammov.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cammov.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:28:39.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MouseMovement.cs",
+              "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\MouseMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseMovement.cs",
+              "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\MouseMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseMovement.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:01:43.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameSession.cs",
               "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\GameSession.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameSession.cs",
@@ -34,34 +68,32 @@
               "RelativeToolTip": "Assets\\Scripts\\GameSession.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T12:23:48.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T12:23:48.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UIStartManager.cs",
               "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UIStartManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIStartManager.cs",
               "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UIStartManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIStartManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAmAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T10:34:39.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UINetworkManager.cs",
               "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UINetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UINetworkManager.cs",
               "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UINetworkManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UINetworkManager.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAE8AAAAPAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAIBQwE8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T09:18:17.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T09:18:17.856Z"
             }
           ]
         }
