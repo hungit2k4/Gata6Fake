@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\uinetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|D:\\FPT Polytechnic\\game3d\\Gata6Fake\\assets\\scripts\\uinetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uinetworkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\NetworkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NetworkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\uistartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uistartmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|d:\\fpt polytechnic\\game3d\\gata6fake\\assets\\scripts\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A82294E3-EE7D-F9AB-8CE8-4D4ED0AC8CC2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameSession.cs",
+              "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\GameSession.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameSession.cs",
+              "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\GameSession.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameSession.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T12:23:48.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIStartManager.cs",
+              "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UIStartManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIStartManager.cs",
+              "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UIStartManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIStartManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:34:39.355Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,21 +58,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UINetworkManager.cs",
               "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\UINetworkManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UINetworkManager.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAwE0AAABsAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T09:18:17.856Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NetworkManager.cs",
-              "DocumentMoniker": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\NetworkManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NetworkManager.cs",
-              "ToolTip": "D:\\FPT Polytechnic\\game3d\\Gata6Fake\\Assets\\Scripts\\NetworkManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NetworkManager.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T09:12:32.832Z"
             }
           ]
         }
