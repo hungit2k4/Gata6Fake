@@ -320,6 +320,7 @@ GameObject:
   - component: {fileID: 2156483411917545349}
   - component: {fileID: 7531395543237888114}
   - component: {fileID: 489824478668108207}
+  - component: {fileID: 3509116615539954312}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -403,6 +404,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4116369472101919726}
   m_Enabled: 1
+--- !u!114 &3509116615539954312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116369472101919726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696ae2cb5f89a2e489b216fd91a678d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  playerBody: {fileID: 8416422911063829149}
 --- !u!1 &6260074050335128172
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +459,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8416422911063829149}
   - component: {fileID: 7885784542309609057}
-  - component: {fileID: 3373734206517678567}
   - component: {fileID: 4653873287330225421}
   - component: {fileID: 6468331837559905919}
   - component: {fileID: 8388272227887095184}
@@ -500,21 +514,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3373734206517678567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6297129522923052162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a97312e5f87f0940bb22de18ea0e33e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 500
-  topClamp: -90
-  bottomClamp: 90
 --- !u!114 &4653873287330225421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,7 +559,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &8388272227887095184
 MonoBehaviour:
