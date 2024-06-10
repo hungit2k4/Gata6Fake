@@ -7433,7 +7433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4771580535265168, guid: 8fe0cb96677e94648acaee655037b706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.068
+      value: -1.72
       objectReference: {fileID: 0}
     - target: {fileID: 4771580535265168, guid: 8fe0cb96677e94648acaee655037b706, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7467,6 +7467,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95722579692391976, guid: 8fe0cb96677e94648acaee655037b706, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 5764996c2aa11be47840c6af414fe11e, type: 3}
     - target: {fileID: 95722579692391976, guid: 8fe0cb96677e94648acaee655037b706, type: 3}
       propertyPath: m_Controller
       value: 
@@ -13792,7 +13796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
-  gravity: -19.62
+  gravity: -17.2
   jumpHeight: 3
   groundCheck: {fileID: 1306274530}
   groundDistance: 0.4

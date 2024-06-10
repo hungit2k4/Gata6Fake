@@ -14,63 +14,116 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
 
     Vector3 velocity;
-
     bool isGrounded;
-    bool isMoving;
+    Animator animator;
+    private Vector3 lastPosition;
 
-    private Vector3 lastPosition = new Vector3(0f,0f,0f);
+    private float idleTimer = 0f;
+    private float idleThreshold = 10f;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
+        lastPosition = transform.position;
     }
 
-   
     void Update()
     {
-        //Ground check
+        GroundCheck();
+        Move();
+        Jump();
+        Fall();
+        UpdateAnimation();
+        Shooting();
+        Run();
+        StandEffect();
+    }
+
+    void GroundCheck()
+    {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        //Resseting the default velocity
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
+            animator.SetBool("nhay", false);
         }
+    }
 
-        //Getting the inputs
+    void Move()
+    {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-
-        //Creating the moving vecter
         Vector3 move = transform.right * x + transform.forward * z;
-
-        //Actually moving the player
         controller.Move(move * speed * Time.deltaTime);
+        Run();
+    }
 
-        //check if the player can jump
+    void Jump()
+    {
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            //Actually jumping
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            animator.SetBool("nhay", true);
         }
+    }
 
-        //Falling down
+    void Fall()
+    {
         velocity.y += gravity * Time.deltaTime;
-
-        //Exectuting the jump
         controller.Move(velocity * Time.deltaTime);
+    }
 
-        if (lastPosition != gameObject.transform.position && isGrounded == true)
+    void UpdateAnimation()
+    {
+        float distanceMoved = Vector3.Distance(lastPosition, transform.position);
+        bool isMoving = distanceMoved > 0.01f;
+        animator.SetBool("dibo", isMoving);
+        lastPosition = transform.position;
+    }
+
+    void Shooting()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
-            isMoving = true;
-            //for later use
+            animator.SetBool("ban", true);
         }
         else
         {
-            isMoving = false;
+            animator.SetBool("ban", false);
         }
-
-        lastPosition = gameObject.transform.position;
-
-        /////////////////////
     }
+
+    void Run()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            animator.SetBool("chay", true);
+        }
+        else
+        {
+            animator.SetBool("chay", false);
+        }
+    }
+
+    void StandEffect()
+    {
+        if (controller.velocity.magnitude < 0.01f) // If the player is nearly stationary
+        {
+            idleTimer += Time.deltaTime;
+            if (idleTimer >= idleThreshold)
+            {
+                // Change to idle animation here
+                animator.SetBool("hieuungdungyen", true);
+            }
+        }
+        else
+        {
+            // Reset idle timer if the player moves
+            idleTimer = 0f;
+            animator.SetBool("hieuungdungyen", false);
+        }
+    }
+
 }
+
