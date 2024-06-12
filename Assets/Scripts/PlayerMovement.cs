@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     private CharacterController controller;
     public float speed = 12f;
@@ -30,14 +31,20 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        GroundCheck();
-        Move();
-        Jump();
+
+        if (IsOwner) {
+            Move();
+            Jump();
+            
+        }
         Fall();
+        GroundCheck();
         UpdateAnimation();
         Shooting();
         Run();
         StandEffect();
+
+
     }
 
     void GroundCheck()
