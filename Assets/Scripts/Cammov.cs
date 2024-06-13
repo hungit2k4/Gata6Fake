@@ -45,7 +45,7 @@ public class Cammov : NetworkBehaviour
             // Sử dụng cả hai giá trị xRotation và yRotation để quay camera
             cam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
             transform.Rotate(Vector3.up * mouseX);
-            if (IsClient)
+           // if (IsClient)
             {
                 transform.Rotate(Vector3.up * mouseX);
             }

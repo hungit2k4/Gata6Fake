@@ -7,7 +7,7 @@ public class mauplyer1 : MonoBehaviour
 
     public thanhmau thanhmau;
     public float nowhp;
-    public float maxhp = 10;
+    public float maxhp = 100;
 
 
     // Start is called before the first frame update

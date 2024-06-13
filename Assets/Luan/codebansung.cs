@@ -6,13 +6,10 @@ using TMPro;
 
 public class codebansung : MonoBehaviour
 {
-    public Transform tâm;
     public Transform súng; // Transform where the bullet spawns
-    public Transform gocnhin; // Transform where the bullet spawns
     public TextMeshPro loadsodan;
 
 
-    public GameObject ak47;
 
     public int sodan;
 
@@ -91,26 +88,7 @@ public class codebansung : MonoBehaviour
 
 
 
-        if (other.gameObject.tag == "ak")
-        {
-
-
-            ak47.SetActive(true);
-            Destroy(other.gameObject);
-
-
-
-
-
-
-
-
-        }
-        else
-        {
-            fag = false;
-
-        }
+        
     }
     void huynapdan()
     {
