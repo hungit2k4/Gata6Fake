@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using TMPro;
+using Unity.Netcode;
 
-public class codebansung : MonoBehaviour
+public class codebansung : NetworkBehaviour
 {
     public Transform súng; // Transform where the bullet spawns
     public TextMeshPro loadsodan;
@@ -13,7 +14,6 @@ public class codebansung : MonoBehaviour
 
     public int sodan;
 
-    bool fag = false;
 
 
     public GameObject bulletPrefab; // Reference to the bullet prefab
